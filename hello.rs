@@ -9,8 +9,13 @@ fn main() {
 
     // println!("My name is {0}, {1} {0}", "Bond");
 
-    
+    let name = "Rakshit Gumber";
+    let mut age: i32 = 22;
+    println!("name: {};\nage: {}", name, age);
+    age = 4;
+    println!("name: {};\nage: {}", name, age);
 
+    // eprint!("You are the mistake.")
 }
 
 // https://doc.rust-lang.org/rust-by-example/
